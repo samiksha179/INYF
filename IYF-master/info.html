@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="name" required></td>
+   </tr>
+
+   <tr>
+    <td>Email Id :</td>
+    <td><input type="email" name="email" required></td>
+   </tr>
+
+   <tr>
+    <td>Qualifications :</td>
+    <td><input type="text" name="qualificatons" required></td>
+   </tr>
+
+   <tr>
+       <td>Work Experience :</td>
+       <td><textarea placeholder="Enter your Job Experience" name="workexp" required></textarea></td>
+   </tr>
+
+   <tr>
+       <td>Why should I hire you?</td>
+       <td><textarea placeholder="Answer this carefully.." name="hireyou" required></textarea></td>
+   </tr>
+
+   <tr>
+       <td><button type="submit" value="submit">Apply Now!</button></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
